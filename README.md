@@ -3,7 +3,7 @@ This is a bash script created to automate the process of creating my CTF and Box
 
 ## Zshrc Required Changes
 ### Update ZSHRC
-In order for the terminal title to stay changed the following conditional statement must be added to the precmd()function:
+In order for the terminal title to stay changed the following conditional statement must be added to the precmd() function:
 ```zsh
 precmd() {
     # Check if the MY_FIXED_TITLE environment variable is set
