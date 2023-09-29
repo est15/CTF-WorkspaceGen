@@ -1,9 +1,8 @@
-#Necessary Tools
-### Zsh -- this is the shell the script was created for
-### xdotool -- launch keyboard shortcuts from the commandd line
+# CTF-WorkspaceGen
+This is a bash script created to automate the process of creating my CTF and Box workspace.
 
-# ZSHRC Configuration File Required Changes
-## Update ZSHRC
+## Zshrc Required Changes
+### Update ZSHRC
 In order for the terminal title to stay changed the following conditional statement must be added to the precmd()function:
 ```zsh
 precmd() {
@@ -19,7 +18,7 @@ precmd() {
     # Otherwise, existing commands that set the terminal title
 }
 ```
-## Source the Zshrc File
+### Source Zshrc
 ```zsh
 source ~/.zshrc
 ```
